@@ -1,11 +1,11 @@
 {
-    "name": "imarc/craft-sass",
+    "name": "omniprojects/craft-sass",
     "description": "A Craft plugin that compiles SASS on the server as needed.",
-    "homepage": "https://github.com/imarc/craft-sass",
+    "homepage": "https://github.com/omniprojects/craft-sass",
     "type": "craft-plugin",
     "license": "Apache",
     "authors": [
-        {"name": "Kevin Hamer", "email": "kevin@imarc.net"}
+        {"name": "Jonathan Azoff", "email": "dev@beomni.com"}
     ],
 
     "require": {
