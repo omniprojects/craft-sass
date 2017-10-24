@@ -134,7 +134,7 @@ class Server
         if (is_readable($metadataName)) {
             $metadata = unserialize(file_get_contents($metadataName));
 
-            foreach ($metadata['imports'] as $import) {
+            foreach ($metadata['imports'] as $import => $ntime) {
                 if (filemtime($import) > $mtime) {
                     return true;
                 }
